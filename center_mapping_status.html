@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Center Mapping Progress</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 16px; background: transparent; }
+  h2 { font-size: 20px; font-weight: bold; color: #1a4d3a; margin: 0 0 16px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  thead th { background: #1a4d3a; color: #ffffff; text-align: left; padding: 12px 16px; font-weight: 600; }
+  tbody tr:nth-child(even) td { background: #f4f4f4; }
+  tbody tr:nth-child(odd) td { background: #ffffff; }
+  tbody tr:hover td { background: #e8f0eb; }
+  td { padding: 10px 16px; border-bottom: 1px solid #e0e0e0; color: #222; vertical-align: middle; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; margin-right: 6px; }
+  .badge-completed { background: #d4edda; color: #155724; }
+  .badge-pending   { background: #fff3cd; color: #7d4e00; }
+  .badge-unknown   { background: #e9ecef; color: #555; border: 1px solid #ccc; }
+</style>
+</head>
+<body>
+<h2>Status overview – Center Mapping progress</h2>
+<table>
+  <thead>
+    <tr>
+      <th style="width:140px;">Center</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>ABC</td><td><span class="badge badge-pending">Bulk Import Pending</span> – 24th</td></tr>
+    <tr><td>AfricaRice</td><td><span class="badge badge-pending">Bulk Import Pending</span></td></tr>
+    <tr><td>CIMMYT</td><td><span class="badge badge-pending">Bulk Import Pending</span> – 25th</td></tr>
+    <tr><td>CIP</td><td><span class="badge badge-pending">Bulk Import Pending</span> – Test Import completed</td></tr>
+    <tr><td>ICARDA</td><td><span class="badge badge-completed">Completed</span></td></tr>
+    <tr><td>ICRISAT</td><td><span class="badge badge-unknown">Status Unknown</span></td></tr>
+    <tr><td>IFPRI</td><td><span class="badge badge-unknown">Status Unknown</span></td></tr>
+    <tr><td>IITA</td><td><span class="badge badge-completed">Completed</span> – Project Description/Summary Import pending for unmapped projects</td></tr>
+    <tr><td>ILRI</td><td><span class="badge badge-completed">Completed</span></td></tr>
+    <tr><td>IRRI</td><td><span class="badge badge-pending">Bulk Import Pending</span></td></tr>
+    <tr><td>IWMI</td><td><span class="badge badge-completed">Completed</span></td></tr>
+    <tr><td>WF</td><td><span class="badge badge-pending">Bulk Import Pending</span> – 23rd</td></tr>
+  </tbody>
+</table>
+</body>
+</html>
